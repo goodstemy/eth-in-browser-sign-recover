@@ -1,3 +1,6 @@
-## About
+### Basic sign and ecRecover web3 example with in browser wallet
 
-Basic payment ether channel for self understanding
+###### How to:
+
+1. npm i
+2. npm start

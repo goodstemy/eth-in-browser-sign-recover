@@ -2,20 +2,25 @@
   "name": "playground",
   "version": "1.0.0",
   "description": "",
-  "main": "truffle-config.js",
-  "directories": {
-    "test": "test"
-  },
-  "dependencies": {
-    "bn.js": "^4.11.8",
-    "ethereumjs-abi": "^0.6.5",
-    "zeppelin-solidity": "^1.12.0"
-  },
-  "devDependencies": {},
+  "main": "frame.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goodstemy/payment-channel.git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goodstemy/payment-channel/issues"
+  },
+  "homepage": "https://github.com/goodstemy/payment-channel#readme",
+  "dependencies": {
+    "parcel": "^1.11.0",
+    "vynos": "^0.1.15",
+    "web3": "^1.0.0-beta.37"
+  }
 }
